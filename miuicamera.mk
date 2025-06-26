@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
      $(CAMERA_PATH)/configs/device_features/alioth.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/alioth.xml \
      $(CAMERA_PATH)/configs/device_features/aliothin.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/aliothin.xml
 
+# Shims
+PRODUCT_PACKAGES += \
+    libgui_camera_shim
+
 # Symlinks
 PRODUCT_PACKAGES += \
     miui_camera_libcamera_algoup_symlink \
