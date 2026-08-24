@@ -1,0 +1,21 @@
+# Allow to find camera hal
+allow priv_app hal_xiaomi_camera_hwservice:hwservice_manager find;
+
+# Allow to call camera hidl
+binder_call(priv_app, hal_camera_default)
+
+# Allow to read camera props
+get_prop(priv_app, vendor_camera_prop)
+get_prop(priv_app, vendor_camera_sensor_prop)
+
+# Allow to read display props
+get_prop(priv_app, vendor_display_prop)
+
+# Allow to read audio props
+get_prop(priv_app, vendor_audio_prop)
+
+# Camera Post Processing
+typeattribute priv_app halclientdomain;
+typeattribute priv_app vendor_hal_camerapostproc_xiaomi_client;
+
+allow priv_app { vendor_hal_camerapostproc_xiaomi_hwservice hal_misys_hwservice }:hwservice_manager find;

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features>
+    <!--whether the device is pad-->
+    <bool name="is_pad">false</bool>
+    <!--whether the device is xiaomi-->
+    <bool name="is_xiaomi">false</bool>
+    <!--whether the device is hongmi-->
+    <bool name="is_hongmi">true</bool>
+    <!--whether the device support alpha optimized-->
+    <bool name="support_alpha_optimized">true</bool>
+    <!--whether the device support simple launcher-->
+    <bool name="support_simple_launcher">false</bool>
+    <!--whether the device supports torch-->
+    <bool name="support_torch">true</bool>
+    <!--whether install the fm app-->
+    <bool name="support_fm">true</bool>
+    <!--whether the device supports oldman mode-->
+    <bool name="support_oldman_mode">false</bool>
+    <!--whether the device is dual sim card-->
+    <bool name="support_dual_sim_card">true</bool>
+    <!--whether the device support 4G+-->
+    <bool name="support_ca">true</bool>
+    <!--whether the device has dual systems-->
+    <bool name="is_dual_system">false</bool>
+    <!--whether the device is emulated sdcard-->
+    <bool name="is_emulated_sdcard">true</bool>
+    <!--whether the device has dual sd card-->
+    <bool name="support_dual_sd_card">false</bool>
+    <!--whether the device supports bt debug trace-->
+    <bool name="btdebug_enabled">true</bool>
+    <!--whether the device supports page layout-->
+    <bool name="support_page_layout">false</bool>
+    <!--whether the device supports record param-->
+    <bool name="support_record_param">false</bool>
+    <!--whether the device supports interview record param-->
+    <bool name="support_interview_record_param">false</bool>
+    <!--whether the device supports stereo record-->
+    <bool name="support_stereo_record">true</bool>
+    <!--whether the device supports hd record param-->
+    <bool name="support_hd_record_param">false</bool>
+    <!--whether the device supports voip record -->
+    <bool name="support_voip_record">true</bool>
+    <!--whether the device supports screenrecorder inner-sound recorder mode-->
+    <integer name="support_inner_record">1</integer>
+    <!--whether the device supports screen paper mode-->
+    <bool name="support_screen_paper_mode">true</bool>
+    <!--whether the device supports button light-->
+    <bool name="support_button_light">false</bool>
+    <!--whether the device supports emulated storage-->
+    <bool name="support_emulated_storage">true</bool>
+    <!--whether the device supports internal sdcard-->
+    <bool name="support_internal_sdcard">false</bool>
+    <!--whether the device supports power mode-->
+    <bool name="support_power_mode">false</bool>
+    <!--whether the device supports dolby-->
+    <bool name="support_dolby">true</bool>
+    <!--which screen effect options should be show-->
+    <integer name="screen_effect_supported">7</integer>
+    <!--whether support the new automatic brightness logic-->
+    <bool name="support_autobrightness_optimize">true</bool>
+    <!--whether the device supports high frame rate-->
+    <bool name="support_high_fps">true</bool>
+    <!--whether the device supports fingerprint-->
+    <bool name="support_fingerprint">true</bool>
+    <!--whether the device supports nfc-->
+    <bool name="support_nfc">true</bool>
+
+    <!-- Camera Features -->
+    <!--whether support burst shoot in camera-->
+    <bool name="support_camera_burst_shoot">true</bool>
+    <!--whether support solid recording in camera-->
+    <bool name="support_camera_movie_solid">true</bool>
+    <!--whether support shader effect in camera-->
+    <bool name="support_camera_shader_effect">true</bool>
+    <!--whether support skin beauty in camera-->
+    <bool name="support_camera_skin_beauty">true</bool>
+    <!--whether support age detection in camera-->
+    <bool name="support_camera_age_detection">true</bool>
+    <!--whether support record location in camera-->
+    <bool name="support_camera_record_location">true</bool>
+    <!--whether support time watermark in camera-->
+    <bool name="support_camera_water_mark">true</bool>
+    <!--whether support new style time watermark in camera-->
+    <bool name="support_camera_new_style_time_water_mark">true</bool>
+    <!--whether support face info watermark in camera-->
+    <bool name="support_camera_face_info_water_mark">true</bool>
+    <!--whether support square mode in camera-->
+    <bool name="support_camera_square_mode">true</bool>
+    <!--whether support pause recording in camera-->
+    <bool name="support_camera_video_pause">true</bool>
+    <!--whether support boosting screen brightness in camera-->
+    <bool name="support_camera_boost_brightness">true</bool>
+    <!--whether support dynamic light spot in camera-->
+    <bool name="support_camera_dynamic_light_spot">true</bool>
+    <!--whether support high frame recording in camera-->
+    <bool name="support_camera_hfr">true</bool>
+    <!--whether support 4k recording in camera-->
+    <bool name="support_camera_4k_quality">false</bool>
+    <!--whether support audio focus recording in camera-->
+    <bool name="support_camera_audio_focus">false</bool>
+    <!--whether use morpho lib in camera-->
+    <bool name="is_camera_use_morpho_lib">true</bool>
+    <!--whether support manual focus/exposure_time in camera-->
+    <bool name="support_camera_manual_function">true</bool>
+    <!--whether capture when user press down the shutter in camera instead of left the shutter-->
+    <bool name="support_camera_press_down_capture">true</bool>
+    <!--whether support capture in torch mode in camera-->
+    <bool name="support_camera_torch_capture">true</bool>
+    <!--whether support peaking mf in camera-->
+    <bool name="support_camera_peaking_mf">true</bool>
+    <!--whether support gradienter in camera-->
+    <bool name="support_camera_gradienter">true</bool>
+    <!--whether scan qrcode with lower frequency in camera-->
+    <bool name="is_camera_lower_qrscan_frequency">true</bool>
+    <!--whether listen frame with single subthread looper in camera-->
+    <bool name="is_camera_preview_with_subthread_looper">true</bool>
+    <!--whether add watermark in camera app-->
+    <bool name="is_camera_app_water_mark">true</bool>
+    <!--whether support tiltshift in camera-->
+    <bool name="support_camera_tilt_shift">true</bool>
+    <!--whether support magic mirror in camera-->
+    <bool name="support_camera_magic_mirror">true</bool>
+    <!--whether support groupshot mode in camera-->
+    <bool name="support_camera_groupshot">true</bool>
+    <!--whether support snap with screen off in camera-->
+    <bool name="support_camera_quick_snap">true</bool>
+    <!--whether camera support portrait mode switch -->
+    <bool name="camera_is_support_portrait_front">true</bool>
+    <!--whether camera support 3D face beauty-->
+    <bool name="support_3d_face_beauty">true</bool>
+    <!--camera_adjust_picture_size_enabled-->
+    <bool name="camera_adjust_picture_size_enabled">true</bool>
+    <!--whether support wide self photo in camera-->
+    <bool name="support_camera_wide_self">true</bool>
+    <!--whether support super night in camera-->
+    <bool name="support_super_night">true</bool>
+    <!--whether support macro mode in camera-->
+    <bool name="support_camera_macro_mode">true</bool>
+    <!--whether support ultra wide in camera-->
+    <bool name="support_camera_ultra_wide">true</bool>
+
+    <!--These app has permission to access aux camera -->
+    <string-array name="camera_aux_package_list">
+        <item>org.lineageos.aperture</item>
+        <item>com.android.camera</item>
+        <item>com.miui.cit</item>
+        <item>com.xiaomi.cameratest</item>
+        <item>com.xiaomi.cameratools</item>
+        <item>com.xiaomi.factory.m插件</item>
+        <item>com.xiaomi.camera.mivi</item>
+        <item>com.xiaomi.camera.sample</item>
+    </string-array>
+</features>
