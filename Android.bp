@@ -46,3 +46,10 @@ install_symlink {
     installed_location: "priv-app/MiuiCamera/lib/arm64/libopencl-camera.so",
     symlink_target: "/system/lib64/libopencl-camera.so",
 }
+
+install_symlink {
+    name: "miui_camera_libgui_camera_shim_symlink",
+    installed_location: "priv-app/MiuiCamera/lib/arm64/libgui_camera_shim.so",
+    symlink_target: "/system/lib64/libgui_camera_shim.so",
+}
+

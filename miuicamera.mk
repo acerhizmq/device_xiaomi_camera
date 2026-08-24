@@ -43,7 +43,8 @@ PRODUCT_PACKAGES += \
     miui_camera_libOpenCL_symlink \
     miui_camera_libmqsas_symlink \
     miui_camera_libcameraimpl_symlink \
-    miui_camera_libopencl_camera_symlink
+    miui_camera_libopencl_camera_symlink \
+    miui_camera_libgui_camera_shim_symlink
 
 # Properties
 PRODUCT_SYSTEM_PROPERTIES += \
