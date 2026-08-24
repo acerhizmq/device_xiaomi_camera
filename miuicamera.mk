@@ -25,8 +25,10 @@ PRODUCT_COPY_FILES += \
 
 # Device-Features
 PRODUCT_COPY_FILES += \
-     $(CAMERA_PATH)/configs/device_features/alioth.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/alioth.xml \
-     $(CAMERA_PATH)/configs/device_features/aliothin.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/aliothin.xml
+     $(CAMERA_PATH)/configs/device_features/veux.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/veux.xml \
+     $(CAMERA_PATH)/configs/device_features/peux.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/peux.xml \
+     $(CAMERA_PATH)/configs/device_features/veux.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/veux.xml \
+     $(CAMERA_PATH)/configs/device_features/peux.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/peux.xml
 
 # Shims
 PRODUCT_PACKAGES += \
@@ -45,16 +47,9 @@ PRODUCT_PACKAGES += \
 
 # Properties
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.com.google.lens.oem_camera_package=com.android.camera \
     ro.miui.notch=1 \
-    persist.sys.cam.skip_detach_image=true
-
-# Logging
-PRODUCT_SYSTEM_PROPERTIES += \
-   log.tag.CHIUSECASE=ERROR
-
-PRODUCT_VENDOR_PROPERTIES += \
-   persist.vendor.camera.logInfoMask=false
+    persist.sys.cam.skip_detach_image=true \
+    log.tag.CHIUSECASE=ERROR
 
 # Sepolicy Camera
 BOARD_VENDOR_SEPOLICY_DIRS += \
@@ -73,9 +68,7 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
     $(CAMERA_PATH)/sepolicy/misys/public
 
-# Qualcomm Gralloc
-PRODUCT_PACKAGES += \
-     gralloc.qcom
+
 
 # MiSys HIDL deps
 PRODUCT_PACKAGES += \
@@ -89,11 +82,26 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MiuiCameraOverlay \
     MiuiCameraOverlayLos \
-    MiuiCameraOverlayAosp
+    MiuiCameraOverlayAosp \
+    PixelLauncherOverlayMiuiCamera
 
-# System Properties
+# Camera Properties (aligned with tested veux/peux vendor.prop)
+PRODUCT_VENDOR_PROPERTIES += \
+    camera.force_snaps_on_shutter_denoise=false \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.xiaomi.camera \
+    persist.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.xiaomi.camera \
+    persist.vendor.camera.privapp.list=com.android.camera,org.codeaurora.snapcam,com.shamim.cam \
+    persist.vendor.camera.HAL3.enabled=1 \
+    vendor.camera.lowpower.record.enable=0 \
+    persist.vendor.cam.strip3pjfif=true \
+    persist.vendor.cam.cname_tag=0x808d0000 \
+    persist.vendor.cam.3pyuv_tag=0x808d0001 \
+    persist.vendor.camera.logInfoMask=false
+
 PRODUCT_SYSTEM_PROPERTIES += \
-    persist.vendor.camera.privapp.list=com.android.camera \
-    ro.com.google.lens.oem_camera_package=com.android.camera
+    ro.com.google.lens.oem_camera_package=com.android.camera \
+    ro.vendor.display.type=oled \
+    ro.vendor.audio.us.proximity=true \
+    ro.miui.build.region=global
 
 $(call inherit-product, $(CAMERA_VENDOR_PATH)/camera-vendor.mk)
