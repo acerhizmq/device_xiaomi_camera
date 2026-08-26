@@ -104,6 +104,7 @@ system/lib64/libcamera_beauty_mpbase.so
 system/lib64/libcamera_mialgo_ambilight.so
 system/lib64/libcamera_wideselfie_mpbase.so
 system/lib64/libdmabufheap.so
+system/lib64/libc++_shared.so
 system/lib64/libfenshen_apu_v3.so
 system/lib64/libfenshen_apu_v4.so
 system/lib64/libfenshen_snpe.so
