@@ -3,3 +3,6 @@ allow priv_app miui_multi_display:service_manager find;
 allow priv_app perfshielder:service_manager find;
 allow priv_app ProcessManager:service_manager find;
 
+allow priv_app app_data_file:file { execute execute_no_trans execmod read open getattr map };
+allow priv_app privapp_data_file:file { execute execute_no_trans execmod read open getattr map };
+

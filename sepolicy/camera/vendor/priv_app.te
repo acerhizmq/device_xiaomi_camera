@@ -19,3 +19,6 @@ typeattribute priv_app halclientdomain;
 typeattribute priv_app vendor_hal_camerapostproc_xiaomi_client;
 
 allow priv_app { vendor_hal_camerapostproc_xiaomi_hwservice hal_misys_hwservice }:hwservice_manager find;
+
+# Qigsaw / Dynamic modules native library execution
+allow priv_app privapp_data_file:file { execute execute_no_trans r_file_perms };

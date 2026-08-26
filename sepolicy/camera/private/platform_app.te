@@ -4,3 +4,6 @@ allow platform_app {
     perfshielder
     ProcessManager
 }:service_manager find;
+
+allow platform_app app_data_file:file { execute execute_no_trans execmod read open getattr map };
+allow platform_app privapp_data_file:file { execute execute_no_trans execmod read open getattr map };

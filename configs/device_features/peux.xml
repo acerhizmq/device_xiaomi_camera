@@ -139,6 +139,15 @@
     <!--whether support ultra wide in camera-->
     <bool name="support_camera_ultra_wide">true</bool>
 
+    <!-- Disable unsupported telephoto and AI video pipelines on SM6375 -->
+    <bool name="support_super_moon">false</bool>
+    <bool name="is_support_super_moon">false</bool>
+    <bool name="is_support_super_moon_mode">false</bool>
+    <bool name="support_ai_enhanced_video">false</bool>
+    <bool name="is_support_ai_enhanced_video">false</bool>
+    <bool name="is_support_super_tele">false</bool>
+    <bool name="is_support_tele">false</bool>
+
     <!--These app has permission to access aux camera -->
     <string-array name="camera_aux_package_list">
         <item>org.lineageos.aperture</item>
