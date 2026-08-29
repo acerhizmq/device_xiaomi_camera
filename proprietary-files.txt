@@ -102,7 +102,6 @@ system/lib64/libcamera_arcsoft_beautyshot.so
 system/lib64/libcamera_beauty_mpbase.so
 system/lib64/libcamera_mialgo_ambilight.so
 system/lib64/libcamera_wideselfie_mpbase.so
-system/lib64/libdmabufheap.so
 system/lib64/libc++_shared.so
 system/lib64/libfenshen_apu_v3.so
 system/lib64/libfenshen_apu_v4.so
@@ -110,7 +109,6 @@ system/lib64/libfenshen_snpe.so
 system/lib64/libffmpeg.so
 system/lib64/libfuai.so
 system/lib64/libinception_video.so
-system/lib64/libion.so
 system/lib64/libjni_arcsoft_beautyshot.so
 system/lib64/libjni_wideselfie.so
 system/lib64/libmace.so
