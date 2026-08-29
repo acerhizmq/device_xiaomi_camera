@@ -94,7 +94,6 @@ system/lib64/libQnnHtpAltPrepSkel.so
 system/lib64/libQnnHtpAltPrepStub.so
 system/lib64/libaivs_jni.so
 system/lib64/libarcsoft_wideselfie.so
-system/lib64/libc++.so
 system/lib64/libcamera_ambilight_ambt_mtk.so
 system/lib64/libcamera_ambilight_ambt_qcom.so
 system/lib64/libcamera_ambilight_utils_mtk.so
