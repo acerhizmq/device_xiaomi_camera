@@ -6,3 +6,10 @@ allow priv_app ProcessManager:service_manager find;
 allow priv_app app_data_file:file { execute execute_no_trans execmod read open getattr map };
 allow priv_app privapp_data_file:file { execute execute_no_trans execmod read open getattr map };
 
+# Qigsaw plugin download and network access
+allow priv_app self:netlink_route_socket { bind create getattr nlmsg_read read setopt write };
+allow priv_app self:udp_socket { create ioctl read write getattr setattr };
+allow priv_app self:tcp_socket { create ioctl read write getattr setattr connect };
+allow priv_app fwmarkd_socket:sock_file write;
+allow priv_app netd:unix_stream_socket connectto;
+allow priv_app dnsproxyd_socket:sock_file write;
