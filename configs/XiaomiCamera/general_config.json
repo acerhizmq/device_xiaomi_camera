@@ -1,0 +1,83 @@
+[
+    {
+        "deviceCodename": "veux"
+    },
+    {
+        "pref_universal_settings": true
+    },
+    {
+        "pref_tele": false
+    },
+    {
+        "pref_supertele": false
+    },
+    {
+        "pref_frontAI": true
+    },
+    {
+        "pref_videoHDR": false
+    },
+    {
+        "mode_Supermoon": false,
+        "mode_Clone": false,
+        "isSupportCloneMode": false,
+        "isSupportClone": false
+    },
+    {
+        "isSupportSuperMoonMode": false
+    },
+    {
+        "b4": false
+    },
+    {
+        "w5": false
+    },
+    {
+        "Q4": false
+    },
+    {
+        "isSupportAutoZoom": false
+    },
+    {
+        "pref_autozoom": false
+    },
+    {
+        "isSupportVideoAi": false
+    },
+    {
+        "supportAiEnhancedVideo": false
+    },
+    {
+        "mode_AiEnhancedVideo": false
+    },
+    {
+        "pref_camera_ai_enhanced_video": false
+    },
+    {
+        "L3": false
+    },
+    {
+        "d5": false
+    },
+    {
+        "Ra": false
+    },
+    {
+        "p8": false
+    },
+    {
+        "v3": false
+    },
+    {
+        "isSupportAiScene": true
+    },
+    {
+        "supportAiScene": true
+    },
+    {
+        "pref_camera_ai_scene_title": true
+    },
+    {
+        "pref_frontAI": false
+    }
+]

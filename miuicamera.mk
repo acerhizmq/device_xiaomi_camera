@@ -32,6 +32,18 @@ PRODUCT_COPY_FILES += \
      $(CAMERA_PATH)/configs/device_features/veux.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/veux.xml \
      $(CAMERA_PATH)/configs/device_features/peux.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/peux.xml
 
+# XiaomiCamera Custom Configurations (veux / peux / general)
+PRODUCT_COPY_FILES += \
+     $(CAMERA_PATH)/configs/XiaomiCamera/general_config.json:$(TARGET_COPY_OUT_SYSTEM)/etc/XiaomiCamera/general_config.json \
+     $(CAMERA_PATH)/configs/XiaomiCamera/veux.json:$(TARGET_COPY_OUT_SYSTEM)/etc/XiaomiCamera/veux.json \
+     $(CAMERA_PATH)/configs/XiaomiCamera/peux.json:$(TARGET_COPY_OUT_SYSTEM)/etc/XiaomiCamera/peux.json \
+     $(CAMERA_PATH)/configs/XiaomiCamera/general_config.json:$(TARGET_COPY_OUT_PRODUCT)/etc/XiaomiCamera/general_config.json \
+     $(CAMERA_PATH)/configs/XiaomiCamera/veux.json:$(TARGET_COPY_OUT_PRODUCT)/etc/XiaomiCamera/veux.json \
+     $(CAMERA_PATH)/configs/XiaomiCamera/peux.json:$(TARGET_COPY_OUT_PRODUCT)/etc/XiaomiCamera/peux.json \
+     $(CAMERA_PATH)/configs/XiaomiCamera/general_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/XiaomiCamera/general_config.json \
+     $(CAMERA_PATH)/configs/XiaomiCamera/veux.json:$(TARGET_COPY_OUT_VENDOR)/etc/XiaomiCamera/veux.json \
+     $(CAMERA_PATH)/configs/XiaomiCamera/peux.json:$(TARGET_COPY_OUT_VENDOR)/etc/XiaomiCamera/peux.json
+
 # Shims
 PRODUCT_PACKAGES += \
     libgui_camera_shim

@@ -1,0 +1,101 @@
+[
+    {
+        "mode_Supermoon": false,
+        "mode_Clone": false,
+        "isSupportCloneMode": false,
+        "isSupportClone": false
+    },
+    {
+        "pref_camera_ai_audio": false
+    },
+    {
+        "b4": false
+    },
+    {
+        "w5": false
+    },
+    {
+        "pref_tele": false
+    },
+    {
+        "pref_supertele": false
+    },
+    {
+        "isSupportSuperMoonMode": false
+    },
+    {
+        "isSupportAiEnhancedVideo": false
+    },
+    {
+        "isSupportAiAudio": false
+    },
+    {
+        "isSupportSuperTele": false
+    },
+    {
+        "isSupportTele": false
+    },
+    {
+        "supportAsd": true
+    },
+    {
+        "isSupportMacroMode": true
+    },
+    {
+        "isSupportUltraWide": true
+    },
+    {
+        "getSupportedZoom": "capture_inner:0.6:1:2:5:10;capture_ruler:4:10:10:5"
+    },
+    {
+        "getSupportedButtonOuterZooms": "capture:0.6:1.0:2.0;supernight:0.6:1.0:2.0;video:0.6:1.0:2.0"
+    },
+    {
+        "Q4": false
+    },
+    {
+        "isSupportAutoZoom": false
+    },
+    {
+        "pref_autozoom": false
+    },
+    {
+        "isSupportVideoAi": false
+    },
+    {
+        "supportAiEnhancedVideo": false
+    },
+    {
+        "mode_AiEnhancedVideo": false
+    },
+    {
+        "pref_camera_ai_enhanced_video": false
+    },
+    {
+        "L3": false
+    },
+    {
+        "d5": false
+    },
+    {
+        "Ra": false
+    },
+    {
+        "p8": false
+    },
+    {
+        "v3": false
+    },
+    {
+        "isSupportAiScene": true
+    },
+    {
+        "supportAiScene": true
+    },
+    {
+        "pref_camera_ai_scene_title": true
+    },
+    {
+        "pref_frontAI": false
+    }
+]
