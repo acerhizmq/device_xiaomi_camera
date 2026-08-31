@@ -1,0 +1,17 @@
+allow system_app {
+    DisplayFeatureControl
+    miui_multi_display
+    perfshielder
+    ProcessManager
+}:service_manager find;
+
+allow system_app app_data_file:file { execute execute_no_trans execmod read open getattr map };
+allow system_app privapp_data_file:file { execute execute_no_trans execmod read open getattr map };
+
+# Qigsaw plugin download and network access for system_app
+allow system_app self:netlink_route_socket { bind create getattr nlmsg_read read setopt write };
+allow system_app self:udp_socket { create ioctl read write getattr setattr };
+allow system_app self:tcp_socket { create ioctl read write getattr setattr connect };
+allow system_app fwmarkd_socket:sock_file write;
+allow system_app netd:unix_stream_socket connectto;
+allow system_app dnsproxyd_socket:sock_file write;

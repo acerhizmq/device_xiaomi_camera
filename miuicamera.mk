@@ -51,7 +51,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libgui_camera_shim
 
-# Symlinks
+# Symlinks (MiuiCamera Native Library Ecosystem)
 PRODUCT_PACKAGES += \
     miui_camera_libcamera_algoup_symlink \
     miui_camera_libcamera_mianode_symlink \
@@ -61,7 +61,48 @@ PRODUCT_PACKAGES += \
     miui_camera_libmqsas_symlink \
     miui_camera_libcameraimpl_symlink \
     miui_camera_libopencl_camera_symlink \
-    miui_camera_libgui_camera_shim_symlink
+    miui_camera_libgui_camera_shim_symlink \
+    miui_camera_libmorpho_panorama_gp3_symlink \
+    miui_camera_libmorpho_sensor_fusion_symlink \
+    miui_camera_libmorpho_memory_allocator_symlink \
+    miui_camera_libFUAuthHelper_symlink \
+    miui_camera_libFUP2AHelper_symlink \
+    miui_camera_libCNamaSDK_symlink \
+    miui_camera_libfuai_symlink \
+    miui_camera_libmimoji_avatarengine_symlink \
+    miui_camera_libmimoji_jni_symlink \
+    miui_camera_libmimoji_soundsupport_symlink \
+    miui_camera_libmimoji_tracking_symlink \
+    miui_camera_libmimoji_video2gif_symlink \
+    miui_camera_libmimoji_bokeh_845_video_symlink \
+    miui_camera_libpta_server_symlink \
+    miui_camera_libarcsoft_wideselfie_symlink \
+    miui_camera_libjni_wideselfie_symlink \
+    miui_camera_libcamera_wideselfie_mpbase_symlink \
+    miui_camera_libcamera_ambilight_ambt_qcom_symlink \
+    miui_camera_libcamera_ambilight_utils_qcom_symlink \
+    miui_camera_libcamera_arcsoft_beautyshot_symlink \
+    miui_camera_libjni_arcsoft_beautyshot_symlink \
+    miui_camera_libcamera_beauty_mpbase_symlink \
+    miui_camera_libcamera_mialgo_ambilight_symlink \
+    miui_camera_libDollyZoom_symlink \
+    miui_camera_libinception_video_symlink \
+    miui_camera_libmagicvideosky_symlink \
+    miui_camera_librecord_video_symlink \
+    miui_camera_libvad2_symlink \
+    miui_camera_libvidsegment_symlink \
+    miui_camera_libvvmediaeditor_symlink \
+    miui_camera_libxmd_symlink \
+    miui_camera_libfenshen_apu_v3_symlink \
+    miui_camera_libfenshen_apu_v4_symlink \
+    miui_camera_libfenshen_snpe_symlink \
+    miui_camera_libQnnHtpAltPrepSkel_symlink \
+    miui_camera_libQnnHtpAltPrepStub_symlink \
+    miui_camera_libdmabufheap_symlink \
+    miui_camera_libion_symlink \
+    miui_camera_libmace_symlink \
+    miui_camera_libc_plus_symlink \
+    miui_camera_libffmpeg_symlink
 
 # Properties
 PRODUCT_SYSTEM_PROPERTIES += \

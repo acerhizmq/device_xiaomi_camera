@@ -98,8 +98,13 @@
     <bool name="support_camera_4k_quality">false</bool>
     <!--whether support audio focus recording in camera-->
     <bool name="support_camera_audio_focus">false</bool>
+    <!--whether taking lower size panorama in camera-->
+    <bool name="is_lower_size_panorama">false</bool>
+    <!--whether support full size panorama in camera-->
+    <bool name="support_full_size_panorama">true</bool>
     <!--whether use morpho lib in camera-->
     <bool name="is_camera_use_morpho_lib">true</bool>
+    <integer name="extra_min_preview_size">921600</integer>
     <!--whether support manual focus/exposure_time in camera-->
     <bool name="support_camera_manual_function">true</bool>
     <!--whether capture when user press down the shutter in camera instead of left the shutter-->
@@ -139,7 +144,7 @@
     <!--whether support ultra wide in camera-->
     <bool name="support_camera_ultra_wide">true</bool>
 
-        <!-- Disable unsupported telephoto and AI video pipelines on SM6375 -->
+    <!-- Disable unsupported telephoto and AI video pipelines on SM6375 -->
     <bool name="support_super_moon">false</bool>
     <bool name="is_support_super_moon">false</bool>
     <bool name="is_support_super_moon_mode">false</bool>

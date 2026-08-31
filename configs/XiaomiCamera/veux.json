@@ -6,6 +6,10 @@
         "isSupportClone": false
     },
     {
+        "isSupportPanorama2X": false,
+        "isSupportPanoramaSwitchOrientation": true
+    },
+    {
         "pref_camera_ai_audio": false
     },
     {
