@@ -1,17 +1,17 @@
-allow platform_app {
+allow { platform_app platform_app_36 } {
     DisplayFeatureControl
     miui_multi_display
     perfshielder
     ProcessManager
 }:service_manager find;
 
-allow platform_app app_data_file:file { execute execute_no_trans execmod read open getattr map };
-allow platform_app privapp_data_file:file { execute execute_no_trans execmod read open getattr map };
+allow { platform_app platform_app_36 } app_data_file:file { execute execute_no_trans execmod read open getattr map };
+allow { platform_app platform_app_36 } privapp_data_file:file { execute execute_no_trans execmod read open getattr map };
 
 # Qigsaw plugin download and network access for platform_app
-allow platform_app self:netlink_route_socket { bind create getattr nlmsg_read read setopt write };
-allow platform_app self:udp_socket { create ioctl read write getattr setattr };
-allow platform_app self:tcp_socket { create ioctl read write getattr setattr connect };
-allow platform_app fwmarkd_socket:sock_file write;
-allow platform_app netd:unix_stream_socket connectto;
-allow platform_app dnsproxyd_socket:sock_file write;
+allow { platform_app platform_app_36 } self:netlink_route_socket { bind create getattr nlmsg_read read setopt write };
+allow { platform_app platform_app_36 } self:udp_socket { create ioctl read write getattr setattr };
+allow { platform_app platform_app_36 } self:tcp_socket { create ioctl read write getattr setattr connect };
+allow { platform_app platform_app_36 } fwmarkd_socket:sock_file write;
+allow { platform_app platform_app_36 } netd:unix_stream_socket connectto;
+allow { platform_app platform_app_36 } dnsproxyd_socket:sock_file write;
