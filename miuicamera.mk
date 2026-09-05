@@ -42,9 +42,7 @@ PRODUCT_COPY_FILES += \
      $(CAMERA_PATH)/configs/XiaomiCamera/peux.json:$(TARGET_COPY_OUT_PRODUCT)/etc/XiaomiCamera/peux.json \
      $(CAMERA_PATH)/configs/XiaomiCamera/general_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/XiaomiCamera/general_config.json \
      $(CAMERA_PATH)/configs/XiaomiCamera/veux.json:$(TARGET_COPY_OUT_VENDOR)/etc/XiaomiCamera/veux.json \
-     $(CAMERA_PATH)/configs/XiaomiCamera/peux.json:$(TARGET_COPY_OUT_VENDOR)/etc/XiaomiCamera/peux.json \
-     $(CAMERA_PATH)/configs/qigsaw_splits/movielens.apk:$(TARGET_COPY_OUT_SYSTEM)/etc/XiaomiCamera/qigsaw_splits/movielens.apk \
-     $(CAMERA_PATH)/configs/qigsaw_splits/movielens.apk:$(TARGET_COPY_OUT_PRODUCT)/etc/XiaomiCamera/qigsaw_splits/movielens.apk
+     $(CAMERA_PATH)/configs/XiaomiCamera/peux.json:$(TARGET_COPY_OUT_VENDOR)/etc/XiaomiCamera/peux.json
 
 
 # Shims

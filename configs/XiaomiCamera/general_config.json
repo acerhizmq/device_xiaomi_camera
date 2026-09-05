@@ -21,7 +21,16 @@
         "mode_Supermoon": false,
         "mode_Clone": false,
         "isSupportCloneMode": false,
-        "isSupportClone": false
+        "isSupportClone": false,
+        "mode_Film": false,
+        "isSupportFilm": false,
+        "isSupportMovie": false,
+        "isSupportMovieLens": false,
+        "isSupportDollyZoom": false,
+        "isSupportDollyZoomHighEffect": false,
+        "isSupportDollyZoomSpecificEncode": false,
+        "isSupportTimestop": false,
+        "X3": false
     },
     {
         "isSupportSuperMoonMode": false

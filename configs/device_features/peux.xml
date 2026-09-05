@@ -160,6 +160,13 @@
     <bool name="is_support_super_tele">false</bool>
     <bool name="is_support_tele">false</bool>
 
+    <!-- Disable unsupported movie effects / lens on SM6375 -->
+    <bool name="support_movie_lens">false</bool>
+    <bool name="support_movie_effects">false</bool>
+    <bool name="support_film">false</bool>
+    <bool name="is_support_timestop">false</bool>
+    <bool name="support_dolly_zoom">false</bool>
+
     <!--These app has permission to access aux camera -->
     <string-array name="camera_aux_package_list">
         <item>org.lineageos.aperture</item>
