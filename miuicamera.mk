@@ -109,9 +109,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.camera.privapp.list=com.android.camera,org.codeaurora.snapcam,com.shamim.cam \
     persist.vendor.camera.HAL3.enabled=1 \
     vendor.camera.lowpower.record.enable=0 \
-    persist.vendor.cam.strip3pjfif=true \
-    persist.vendor.cam.cname_tag=0x808d0000 \
-    persist.vendor.cam.3pyuv_tag=0x808d0001 \
     persist.vendor.camera.logInfoMask=false
 
 PRODUCT_SYSTEM_PROPERTIES += \
